@@ -1,0 +1,173 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Cascadia Code, Fira Code Retina, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss19', 'zero', 'onum'",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+        "[One Dark Pro]": {
+            "enabled": true,
+            "rules": {
+                "operator": "#C678DD",
+                "variable": "#ABB2BF",
+                "property": "#56B6C2",
+                "field": "#ABB2BF",
+                "local": "#ABB2BF"
+            }
+        }
+    },
+    "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "files.simpleDialog.enable": true,
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono, Cascadia Code, Consolas",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "oneDarkPro.italic": true,
+    "explorer.confirmDelete": false,
+    "rpc.appName": "Visual Studio Code",
+    "rpc.buttonEnabled": true,
+    "rpc.ignoreOrganizations": [
+        "Playstorm"
+    ],
+    "rpc.ignoreWorkspaces": [
+        "EKP"
+    ],
+    "rpc.checkIdle": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": true,
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "cSpell.language": "en,es",
+    "codesnap.transparentBackground": true,
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 0px 10px",
+    "codesnap.showWindowTitle": true,
+    "codesnap.shutterAction": "copy",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Bash": {
+            "path": "C:\\Windows\\System32\\wsl.exe",
+            "icon": "terminal-bash",
+            "overrideName": true
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+            "icon": "git-branch",
+            "overrideName": true
+        }
+    },
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorWidth": 3,
+    "omnisharp.path": "latest",
+    "luahelper.colors.Enable": false,
+    "cSpell.userWords": [
+        "Behaviour",
+        "Carmack",
+        "celsius",
+        "César",
+        "cldn",
+        "cooldown",
+        "datatypes",
+        "dotnet",
+        "farenheit",
+        "Fridman",
+        "gamepad",
+        "gameplay",
+        "grappable",
+        "helloworld",
+        "hitbox",
+        "Hitbox",
+        "hitboxes",
+        "Hookshot",
+        "hurtbox",
+        "iseven",
+        "lerp",
+        "libretro",
+        "Mathf",
+        "Metroid",
+        "Microgame",
+        "mkdir",
+        "Monokai",
+        "nums",
+        "obsproject",
+        "omnisharp",
+        "platformer",
+        "Platformer",
+        "puñetas",
+        "randomint",
+        "Raycast",
+        "retroarch",
+        "Retroarch",
+        "rigidbody",
+        "scroller",
+        "youtube",
+        "Zárate"
+    ],
+    "cSpell.ignoreWords": [
+        "CésarJZO",
+        "Playstorm",
+        "Scriptable",
+        "printnum"
+    ],
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning"
+    ],
+    "errorLens.fontStyleItalic": true,
+    "errorLens.fontWeight": "300",
+    "errorLens.messageBackgroundMode": "message",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vscode-edge-devtools.browserFlavor": "Stable",
+    "settingsSync.ignoredExtensions": [
+        "vsciot-vscode.vscode-arduino",
+        "platformio.platformio-ide",
+        "plastic-scm.plastic-scm"
+    ]
+}
